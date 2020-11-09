@@ -1,6 +1,13 @@
 # Digging Into Self-Supervised Monocular Depth Estimation
 
+[paper](https://openaccess.thecvf.com/content_ICCV_2019/papers/Godard_Digging_Into_Self-Supervised_Monocular_Depth_Estimation_ICCV_2019_paper.pdf)
+
+[github](www.github.com/nianticlabs/monodepth2)
+
+2019
+
 # 摘要
+
 若要取得規模化的取得pixel level的深度圖標籤(ground-truth depth data)是一件非常具有挑戰性的事，為了克服這個限制
 self-supervised learning可以幫上大忙，在這篇文章中，我們提出的幾項改善，我們的結果不論是定性地還是定量地都改善了深度圖的自監督方法(self-supervised methods)，自監督的單相機訓練通常使用超複雜的網路結構，損失函數，以及圖像模型(image formation models)，上面提到的這些都有助於彌補監督方法的不足，我們要向大家展示一個簡單的模型，以及幾個特別的設計，幫助我們達成預測上的改善，我們提出以下三項設計
 

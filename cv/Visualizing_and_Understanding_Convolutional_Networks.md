@@ -6,7 +6,9 @@
 
 2014
 
-Matthew D Zeiler, Rob Fergus
+Matthew D Zeiler
+
+Rob Fergus
 
 # 摘要
 

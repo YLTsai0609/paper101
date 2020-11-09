@@ -1,17 +1,21 @@
 # Infors
 
 [paper](https://arxiv.org/abs/1811.07490v2)
+
 [github](https://github.com/Yunbo426/MIM)
 
 2019
 
-# Authors
-
 Yunbo Wang
+
 Jianjin Zhang
+
 Hongyu Zhu
+
 ingsheng Long
+
 Jianmin Wang
+
 Philip S Yu
 
 # 摘要

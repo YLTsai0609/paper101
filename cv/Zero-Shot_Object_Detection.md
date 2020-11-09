@@ -4,11 +4,15 @@
 
 [github](https://github.com/salman-h-khan/ZSD_Release)
 
-  + Ankan Bansal, University of Maryland, College Park, MD
-  + Karan Sikka, SRI International, Princeton, NJ
-  + Gaurav Sharma, NEC Labs America, Cupertino, CA
-  + Rama Chellappa, 
-  + Ajay Divakaran 
+Ankan Bansal
+
+Karan Sikka
+
+Gaurav Sharma
+
+Rama Chellappa
+
+Ajay Divakaran
 
 # 摘要
 

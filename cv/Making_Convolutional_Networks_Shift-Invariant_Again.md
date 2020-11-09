@@ -2,9 +2,9 @@
 
 [Paper](https://arxiv.org/pdf/1904.11486.pdf)
 
-year : 2019
-
 [github](https://github.com/adobe/antialiased-cnns)
+
+2019
 
 Richard Zhang 
 

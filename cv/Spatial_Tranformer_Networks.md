@@ -4,11 +4,12 @@
 
 [github](https://github.com/kevinzakka/spatial-transformer-network)
 
-# Authors
-
 Max Jaderberg
+
 Karen Simonyan
+
 Andrew Zisserman
+
 koray kavukcuoglu
 
 # 摘要

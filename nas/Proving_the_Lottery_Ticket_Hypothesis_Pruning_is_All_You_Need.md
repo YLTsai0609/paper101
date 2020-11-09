@@ -1,6 +1,7 @@
 # Proving the Lottery Ticket Hypothesis : Pruning is all you need
 
 [paper](https://proceedings.icml.cc/static/paper_files/icml/2020/2313-Paper.pdf)
+
 [github](https://github.com/google-research/lottery-ticket-hypothesis)
 
 Eran Malach

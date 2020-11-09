@@ -6,7 +6,15 @@
 
 2016
 
-Alex Bewley, Zongyuan Ge, Lionel Ott, Fabio Ramos, Ben Upcroft
+Alex Bewley
+
+Zongyuan Ge
+
+Lionel Ott
+
+Fabio Ramos
+
+Ben Upcroft
 
 # 摘要
 

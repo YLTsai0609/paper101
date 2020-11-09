@@ -6,6 +6,9 @@
 
 2018
 
+George Papandreou, Tyler Zhu, Liang-Chieh Chen, Spyros Gidaris, 
+Jonathan Tompson, Kevin Murphy
+
 # 摘要
 
 我們提出了一種由下至上的方法(box-free bottom-up approach)來解決多人圖片中的人類姿態估計以及個體分割任務(the tasks of pose estimation and instance segmentation)，使用一個有效的單一模型(effiecient single-shot model)，這個模型我們稱之為PersonLab，這個模型著手於語意級分割以及部分姿態來進行建模(semantic-level reason amd object-part associations using part-based modeling)，我們的模型使用一個CNN來學習每獨立的keypoints並預測他們的位移，如此一來我們就可以把keypoints綁起來，、再組合成一個人的樣子。

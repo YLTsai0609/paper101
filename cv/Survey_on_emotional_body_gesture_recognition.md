@@ -2,12 +2,13 @@
 
 [paper](https://arxiv.org/pdf/1801.07481.pdf)
 
-[github]()
-
 2018
 
-Fatemeh Noroozi, Ciprian Adrian Corneanu, Dorota Kaminska, Tomasz Sapi ´ nski, Sergio Escalera, ´
-and Gholamreza Anbarjafari, 
+Fatemeh Noroozi
+
+Ciprian Adrian Corneanu
+
+Dorota Kaminska
 
 # 摘要
 

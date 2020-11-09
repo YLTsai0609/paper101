@@ -7,8 +7,11 @@
 2019
 
 Adam R. Kosiorek
+
 Sara Sabour
+
 Yee Whye Teh
+
 Geoffrey E. Hinton
 
 # 摘要

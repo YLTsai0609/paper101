@@ -4,7 +4,7 @@
 
 [github](https://github.com/Sy-Zhang/Geometric-Feature-Release)
 
-2017, IEEE, WACV, 140+
+2017
 
 Songyang Zhang
 

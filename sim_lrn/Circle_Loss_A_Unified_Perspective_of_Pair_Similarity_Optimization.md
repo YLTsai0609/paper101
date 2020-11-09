@@ -1,7 +1,8 @@
 # Circle Loss: A Unified Perspective of Pair Similarity Optimization
 
 [paper](https://arxiv.org/abs/2002.10857?fbclid=IwAR3TQIQZk22FAkL7uSfx4ZEkQOq-mbQXgcXwE6r32HkTxRAUyUQZ9TOGlqo)
-[pytorch](https://github.com/TinyZeaMays/CircleLoss)
+
+[github](https://github.com/TinyZeaMays/CircleLoss)
 
 Yifan Sun, Changmao Cheng, Yuhan Zhang, Chi Zhang, Liang Zheng, Zhongdao Wang, Yichen Wei
 

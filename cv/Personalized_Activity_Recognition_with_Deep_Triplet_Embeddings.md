@@ -2,8 +2,6 @@
 
 [paper](https://arxiv.org/abs/2001.05517)
 
-[github]()
-
 year : 2020
 
 # Authors
