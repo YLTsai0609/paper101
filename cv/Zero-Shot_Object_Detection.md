@@ -1,6 +1,7 @@
 # Zero-Shot Object Detection
 
 [paper](https://arxiv.org/pdf/1804.04340.pdf)
+
 [github](https://github.com/salman-h-khan/ZSD_Release)
 
   + Ankan Bansal, University of Maryland, College Park, MD

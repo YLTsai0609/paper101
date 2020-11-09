@@ -1,8 +1,9 @@
 # Personalized_Activity_Recognition_with_Deep_Triplet_Embeddings
 
 [paper](https://arxiv.org/abs/2001.05517)
+
 [github]()
-citazion : 1
+
 year : 2020
 
 # Authors

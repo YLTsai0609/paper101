@@ -4,7 +4,7 @@
 
 [CrowdHuman: A Benchmark for Detecting Human in a Crowd 2018 S Shao](cv/Crowdhuman_A_benchmark_for_detecting_human_in_a_crowd.md)
 
-[Learning_Depth_from_Single_Monocular_Images 2006 Andrew Y Ng](cv/Learning_Depth_from_Single_Monocular_Images.md)
+[Learning_Depth_from_Single_Monocular_Images 2006  AY Ng](cv/Learning_Depth_from_Single_Monocular_Images.md)
 
 [Make_Skeleton-based_Action_Recognition_Model_Smaller_Faster_and_Better 2019 F Yang](cv/Make_Skeleton-based_Action_Recognition_Model_Smaller_Faster_and_Better.md)
 

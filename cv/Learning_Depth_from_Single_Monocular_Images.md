@@ -1,6 +1,7 @@
 # Learning_Depth_from_Single_Monocular_Images
 
 [paper](https://proceedings.neurips.cc/paper/2005/file/17d8da815fa21c57af9829fb0a869602-Paper.pdf)
+
 [github]
 
 Ashutosh Saxena, Sung H. Chung, and Andrew Y. Ng

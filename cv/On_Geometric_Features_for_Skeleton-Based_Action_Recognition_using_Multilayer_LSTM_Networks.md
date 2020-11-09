@@ -1,10 +1,15 @@
 # On Geometric Features for Skeleton-Based Action Recognition using Multilayer LSTM Networks
 
 [paper](http://cvlab.cse.msu.edu/pdfs/Zhang_Liu_Xiao_WACV2017.pdf)
+
 [github](https://github.com/Sy-Zhang/Geometric-Feature-Release)
+
 2017, IEEE, WACV, 140+
+
 Songyang Zhang
+
 Xiaoming Liu
+
 Jun Xiao
 
 # 摘要

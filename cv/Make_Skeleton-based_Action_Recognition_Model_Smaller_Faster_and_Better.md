@@ -1,11 +1,16 @@
 # Make Skeleton-based Action Recognition Model Smaller, Faster and Better
 
 [paper](https://arxiv.org/pdf/1907.09658.pdf)
+
 [github](https://github.com/fandulu/DD-Net)
 2019
+
 Fan Yang Nara Institute of Science and Technology
+
 Sakriani Sakti1 RIKEN, AIP, Japan
+
 Yang Wu  Kyoto University, Japan
+
 Satoshi Nakamura Institute of Science and Technology
 
 # 摘要

@@ -1,10 +1,10 @@
 # PersonLab: Person Pose Estimation and Instance Segmentation with a Bottom-Up, Part-Based, Geometric Embedding Model
 
 [paper](https://arxiv.org/pdf/1803.08225.pdf)
+
 [github](https://github.com/octiapp/KerasPersonLab)
 
-* 2018
-* citation 77+
+2018
 
 # 摘要
 
