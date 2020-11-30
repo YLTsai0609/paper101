@@ -32,6 +32,10 @@
 
 # Recommendation System 
 
+[Factorization Machines](recomsys/fm.md)
+
+[Graph Convolutional Neural Networks for Web-Scale Recommender Systems](recomsys/Graph_Convolutional_Neural_Networks_for_Web-Scale_Recommender_Systems.md)
+
 # Optimization and Generalization
 
 [Memory In Memory: A Predictive Neural Network for Learning Higher-Order
