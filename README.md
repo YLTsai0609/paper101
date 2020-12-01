@@ -54,3 +54,5 @@ Non-Stationarity from Spatiotemporal Dynamics 2019 Y Wang](opt_gen/Memory_In_Mem
 # Other
 
 [Deep_Learning_in_Mobile_and_Wireless_Networking_A_Survey](other/Deep_Learning_in_Mobile_and_Wireless_Networking_A_Survey.md)
+
+[Challenges_in_Deploying_Machine_Learning__a_Survey_of_Case_Studies](other/ml_dep.md)
