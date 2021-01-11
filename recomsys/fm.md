@@ -10,7 +10,7 @@ It has been a while, the paper is published on 2010.
 
 # Abstract
 
-1. combine the advantages of SVM with factorlizationm models
+1. Combine the advantages of SVM with factorlizationm models
 2. FM model all interactions between variables using factorized parameters.
 3. FM is able to estimate interactions with huge sparsity.
 4. FM can be calculated in linear time.
@@ -25,7 +25,7 @@ target domain :  $T$
 
 training dataset $D = \{(x^{(1)}, y^{(1)}), \{(x^{(2)}, y^{(2)}), ...\}$
 
-| task           | target domain  |   feature domain |note|
+| Task           | Target Domain  |   Feature Domain |Note|
 |----------------|----------------|------------------|----|
 | regression     | $T = \R$       |   $X \in R^{n}$  ||
 | classification | $T = \{+, -\}$ |   $X \in R^{n}$  ||
@@ -146,7 +146,7 @@ Menas that we have only computed over the non-zero elements. the computation of 
 ## Learning Factorization Machines
 
 $$
-u(x) = 
+\frac{\partial}{\partial \theta} \hat{y}(x) = 
   \begin{cases} 
 
       1, & \text{if } \theta \text{ is } w_0 
@@ -166,16 +166,75 @@ we can easily generalize our equeation to d-term interaction =)
 
 ## Compare to Matrix Factorization
 
-Matrix factorization(MF) usually factorizae a relationship **between two categorical variables(e.g. $U$ and $I$)**.
+### Matrix Factorization
+
+Matrix factorization(MF) usually factorize a relationship **between two categorical variables(e.g. $U$ and $I$)**.
 
 FM using the feature vector $x$ and compute the non-zero element with any number of categorical vavirables.
+
+### SVM
+
+When we pick $d = 2$ (make feature inteact ti each other), reformatting the eqruation, we have
+
+$$
+\hat{y}(x) = w_0 + \sqrt{2}\sum_{i=1}^{n}w_ix_i + \sum_{i=1}^{n}w_{i, i}^{2}x_i^{2} + \sqrt{2}\sum_{i=1}^{n}\sum_{j=i+1}^{n}w_{i, j}^{2}x_ix_j
+$$
+
+What's the difference between SVM and FM?
+
+SVM : all the interaction parameters $w_{i, j}$ of SVM are compelety independent.
+
+FM : the inteactions parameters are dependent because we can compress all of them in to $k$ factors. 
+
+For example we have $w_a, w_b, w_c, w_d$.
+
+In SVM : they will be trained independently.
+
+In FM : if they belong to the same facotr $v_{i}$. there are 4 samples to train the parameter $v_{i}$
+
+#### Why SVM failed under sparsity?
+
+For example, in collavirative filtering prlboems(CF), for each interaction parameters $w^{2}_{u, i}$ there is at most one observation $(u, i)$ in the training data and for case $(u', i')$ in the test data there are usually no observations at all in the training data.
+
+Like in Figure 1. There is just one observation for interaction (Alice, Titanic) and non for the interactions (Alice, Star Trek). This means the maximum margin solution for the interactions parameters $w_{u, i}^{2}$ for all test case $(u, i)$ are zeros. Thus, the polynomials SVM can make no use of any 2-way interactions for predicting test examples. So the polynomials SVM only relies on the user and item biases and cannot provide better estimations than a linear SVM.
 
 # Other Discussion
 
 1. linear model - not good enough
-2. add interaction term - good, but overfitting and spend a long time.
+2. add interaction term - might be good, but actually you can't train this parameters set under sparsity. Also you have time complexity $O(n^{2})$
 3. factorization machine - reduce time complexity by involving matrix factorization hack.
-4. physical meaning of factorization machine? (or matrix factorization?)
+
+## Physical Meaning of Factorization Machine?
+
+$$
+\hat{y}(x) := w_{0} + \sum_{i=1}^{n}w_{i}x_{i} + \sum_{i=1}^{n} \sum_{j=i+1}^{n} \hat{w}_{i, j}x_{i}x_{j}
+$$
+
+The interaction paramters $\hat{w}_{i, j}$ for all $i, j$, we have interaction matrix $W_{n \times n}$
+
+The matrix $W$ is a sysmmetric matix, and it could be decomposition :
+
+$$
+W_{n \times n} = V_{n \times k} V_{k \times n}^{T} 
+$$
+
+$V_{n \times k}$ holds the latent factor of $W_{n \times n}$
+
+For example, if we have interactions item only for Users $U$ and Items $I$, the interaction terms means user-item interactions. 
+
+The latent vector will meaning : $n$ $(u, i)$ pairs could be represnt by $k$ style(latent) factors.
+
+Of course, we need to take care about the reconstruction error to monitor how close $V_{n \times k}V^{T}_{k \times n}～W_{n \times n}$ by:
+
+$$
+W_{n \times n} = V_{n \times k} V_{k \times n}^{T} + E_{n \times n}
+$$
+
+where $k \in \N_{0}^{+}$
+
+Facotrization Machine holds general form of any interaction $W_{n \times n}$ and give us thr insight we can train the model only in time complexity $O(k \bar{m}_{D})$
+
+where $k$ is the number of latent factor, $\bar{m}_{D}$ is the average non zero term in $W_{n \times n}$ by row.
 
 # Misc
 
@@ -183,11 +242,27 @@ FM using the feature vector $x$ and compute the non-zero element with any number
 
 2. $R^{n \times k}$ - n x k dimension real nuber space (matrix)
 3. $\N_{0}^{+}$ - non zero nature number [1, 2, 3, ...], [check wiki](https://zh.wikipedia.org/wiki/%E8%87%AA%E7%84%B6%E6%95%B0)
-4. $:=$  - 從電腦科學界過來的符號，意思是左式由右式定義 check [this](https://math.stackexchange.com/questions/25214/what-does-mean)
+4. $:=$  - the symbol borrow from computer science, means lhs defiend by rhs check [this](https://math.stackexchange.com/questions/25214/what-does-mean)
 
 # Stats
 
 1. intro and problem description 1.5HR
 2. refine math(description), factorization machine definition, math hack (1/3) 2.5HR
 
-3. math hack, learning fm 1HR
+3. math hack(3/3), learning fm 1HR
+
+4. compare to SVM 2HR
+
+5. phsical meaning 0.5 hR
+
+In Total 7.5 HR
+
+# Reference
+
+[線代啟示錄 - 矩陣分解](https://ccjou.wordpress.com/%E5%B0%88%E9%A1%8C%E6%8E%A2%E7%A9%B6/%E7%9F%A9%E9%99%A3%E5%88%86%E8%A7%A3/)
+
+[對稱矩陣 wiki](https://zh.wikipedia.org/wiki/%E5%B0%8D%E7%A8%B1%E7%9F%A9%E9%99%A3)
+
+[正定矩陣 wiki](https://zh.wikipedia.org/wiki/%E6%AD%A3%E5%AE%9A%E7%9F%A9%E9%98%B5)
+
+[因子分解機](https://www.mdeditor.tw/pl/29Ak/zh-tw)

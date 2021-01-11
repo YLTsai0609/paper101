@@ -3,8 +3,8 @@
 [paper](link1)
 [github](link2)
 
-# abstract
+# Abstract
 
-# idea
+# Idea
 
-# other-discussion
+# Other Discussion
