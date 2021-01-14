@@ -32,10 +32,31 @@
 
 # Recommendation System 
 
-[Learning and Reasoning on Graph for Recommendation WSDM 2020 Conference Tutorial]
-[Factorization Machines](recomsys/fm.md)
+## Survey
 
-[Graph Convolutional Neural Networks for Web-Scale Recommender Systems](recomsys/Graph_Convolutional_Neural_Networks_for_Web-Scale_Recommender_Systems.md)
+[Learning and Reasoning on Graph for Recommendation WSDM 2020 Conference Tutorial](recomsys/wsdm_2020.md)
+
+## Embedding 
+
+[Factorization Machines 2010](recomsys/fm.md)
+
+## Random walk
+
+[WTF: The Who to Follow Service at Twitter 2013 Pankaj Gupta](recomsys/wtf.md)
+
+[Related Pins at Pinterest: The Evolution of a Real-World Recommender System 2017 David C. Liu](recomsys/pintrest_evolution.md)
+
+[Pixie: A System for Recommending 3+ Billion Items to 200+ Million Users in Real-Time 2018 Chantat Eksombatchai](recomsys/pixie.md)
+
+[Real-time Personalization using Embeddings for Search Ranking at Airbnb 2018 Mihajlo Grbovic](recomsys/rt_airbnb_18.md)
+
+[Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba 2018 Jizhe Wang](recomsys/baba_embedding_18.md)
+
+[RecWalk: Nearly Uncoupled Random Walks for Top-N Recommendation 2019 Athanasios N. Nikolakopoulos](recomsys/recwalk.md)
+
+## Graph Convolution
+
+[Graph Convolutional Neural Networks for Web-Scale Recommender Systems 2018 Rex Ying](recomsys/Graph_Convolutional_Neural_Networks_for_Web-Scale_Recommender_Systems.md)
 
 # Optimization and Generalization
 
