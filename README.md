@@ -44,6 +44,8 @@
 
 ## Random walk
 
+[brief random walk approach survey](recomsys/brief_random_walk_approach.md)
+
 [WTF: The Who to Follow Service at Twitter 2013 Pankaj Gupta](recomsys/wtf.md)
 
 [Related Pins at Pinterest: The Evolution of a Real-World Recommender System 2017 David C. Liu](recomsys/pintrest_evolution.md)
