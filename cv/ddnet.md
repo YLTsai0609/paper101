@@ -14,13 +14,13 @@
 
 The prior knowledge of skeleton-based action recognition :
 
-<img src='../assert/ddnet_1.png'></img>
+<img src='../asset/ddnet_1.png'></img>
 
-<img src='../assert/ddnet_4.png'></img>
+<img src='../asset/ddnet_4.png'></img>
 
-<img src='../assert/ddnet_6.png'></img>
+<img src='../asset/ddnet_6.png'></img>
 
-<img src='../assert/ddnet_7.png'></img>
+<img src='../asset/ddnet_7.png'></img>
 
 A. geometric feature are used like joint-combine features and Cartesian coordinate feature
 
@@ -30,7 +30,7 @@ A. geometric feature are used like joint-combine features and Cartesian coordina
   + Joint-conbine features may need to be heavily redesigned from one dataset to another or contain redundant elements
 * We propose JCD(joint collection distance) to make prediction robust.
 
-<img src='../assert/ddnet_5.png'></img>
+<img src='../asset/ddnet_5.png'></img>
 
 B. Modeling Global Scale-invariant Motions by a Two-scale Motion Feature
 
@@ -43,17 +43,17 @@ C. Modeling Joint Correlations by an Embedding
   + Since most of neural networks inherently assume that inputs are locally correlated, directly processing the locally uncorrelated joint feature is inappropriate
   +  DD-Net embeds the JCD feature and the two-scale motion feature into latent vectors at each frame. The correlation of joints is automatically learned through the embedding. As another benefit, the embedding process also reduces the effect of skeleton noise
 
-<img src='../assert/ddnet_3.png'></img>
+<img src='../asset/ddnet_3.png'></img>
 
 # Experiment dataset
 
-<img src='../assert/ddnet_2.png'></img>
+<img src='../asset/ddnet_2.png'></img>
 
 # Result
 
-<img src='../assert/ddnet_8.png'></img>
+<img src='../asset/ddnet_8.png'></img>
 
-<img src='../assert/ddnet_9.png'></img>
+<img src='../asset/ddnet_9.png'></img>
 
 # Other Discussion
 

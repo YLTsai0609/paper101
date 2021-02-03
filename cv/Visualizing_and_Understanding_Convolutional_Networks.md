@@ -31,7 +31,7 @@ Rob Fergus
 * from [深度學習的可解釋性研究——不如打開箱子看一看](https://read01.com/zh-mo/dEdJ6ON.html#.Xlk_XRMzZE4)
 * pooling -> unpooling
 
-<img src='../assert/cnn_explain_1.png'></img>
+<img src='../asset/cnn_explain_1.png'></img>
 
 * 激活 - 反激活 Relu -> inverse Relu
 * 卷積 - 反卷積
@@ -66,7 +66,7 @@ Bengio在同一年發表了一篇《How transferable are features in deep neural
 Bengio團隊在2016年又做了一項工作
 《Understanding intermediate layers using linear classifier probes》
 這篇文章的思路非常簡單，在每個隱藏層中添加一個線性探爭來測試隱藏層的表徵性能，怎麼做呢？以每個隱藏層為輸入，直接接到最後的label，這樣就是一個Logistic Regression，如此一來我們可以馬上評估模型的準確率如何上升的。
-<img src='../assert/cnn_explain_2.png'></img>
+<img src='../asset/cnn_explain_2.png'></img>
 上圖是基於MINIST的訓練集
 
 ## 其他價值

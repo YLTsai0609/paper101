@@ -67,7 +67,7 @@ $S$ = {(A, TI, 2010-1, 5), (A, NH, 2010-2, 3), (A, SW, 2010-4, 1),
 
 The expanding one-hot encoding dataframe will look like:
 
-<img src='../assert/fm_1.png'></img>
+<img src='../asset/fm_1.png'></img>
 
 | color | meaning         | 
 |-------|-----------------|

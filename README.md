@@ -40,6 +40,8 @@
 
 [Factorization Machines 2010](recomsys/fm.md)
 
+[Sparse Linear Methods for Top-N Recommender Systems 2011, Xia Ning, George Karypis](recomsys/slim.md)
+
 ## Random walk
 
 [WTF: The Who to Follow Service at Twitter 2013 Pankaj Gupta](recomsys/wtf.md)
@@ -58,10 +60,15 @@
 
 [Graph Convolutional Neural Networks for Web-Scale Recommender Systems 2018 Rex Ying](recomsys/Graph_Convolutional_Neural_Networks_for_Web-Scale_Recommender_Systems.md)
 
+## Engineering Challenge
+
+[Related Pins at Pinterest: The Evolution of a Real-World Recommender System 2018 David C. Liu](pintrest_2018.md)
+
+[DRecPy: A Python Framework for Developing Deep Learning-Based Recommenders 2020 Fábio Colaço](drecpy.md)
+
 # Optimization and Generalization
 
-[Memory In Memory: A Predictive Neural Network for Learning Higher-Order
-Non-Stationarity from Spatiotemporal Dynamics 2019 Y Wang](opt_gen/Memory_In_Memory-A_Predictive_Neural_Network_for_Learning_Higher-Order_Non-Stationarity_from_Spatiotemporal_Dynamics.md)
+[Memory In Memory: A Predictive Neural Network for Learning Higher-OrderNon-Stationarity from Spatiotemporal Dynamics 2019 Y Wang](opt_gen/Memory_In_Memory-A_Predictive_Neural_Network_for_Learning_Higher-Order_Non-Stationarity_from_Spatiotemporal_Dynamics.md)
 
 [When_Does_Label_Smoothing_Help 2019 Rafael Müller](opt_gen/When_Does_Label_Smoothing_Help.md)
 

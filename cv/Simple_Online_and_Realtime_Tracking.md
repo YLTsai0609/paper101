@@ -41,16 +41,16 @@ could be $(\vec{a}, \vec{\dot{a}})$ form
 * Suppose variable of each component in state vector is stocastic variable, fit gaussian distribution with $\mu, \sigma^{2}$
 * then they are covariance. in our case we have two variable
 
-<img src='../assert/sortDeepsort_1.png'></img>
+<img src='../asset/sortDeepsort_1.png'></img>
 
 * but case above shows two variable is not correlated, which is not true. 
 * variable and first order differentiate variable should be correlated
 
-<img src='../assert/sortDeepsort_2.png'></img>
+<img src='../asset/sortDeepsort_2.png'></img>
 
 * we could use the covariance to squeeze more infomation to accurate our estimation
 
-<img src='../assert/sortDeepsort_3.png'></img>
+<img src='../asset/sortDeepsort_3.png'></img>
 
 then we need two matrix at time $k$
 
@@ -66,7 +66,7 @@ $$P_k = \begin{pmatrix}
 \sum_{vp}~~~\sum_{vv}
 \end{pmatrix}$$
 
-<img src='../assert/sortDeepsort_4.png'></img>
+<img src='../asset/sortDeepsort_4.png'></img>
 
 we use matrix operation $F_{k}$ to describe state matrix $\hat{x}_{k-1}$ to $\hat{x}_{k}$
 
@@ -134,13 +134,13 @@ where $B_{k}$ is controlling matrix, $\hat{u}_{k}$ is controlling vector
 
 * add new uncertainty every predction step to mimic we can't know all noise all the time.
 
-<img src='../assert/sortDeepsort_4.png'></img>
+<img src='../asset/sortDeepsort_4.png'></img>
 
-<img src='../assert/sortDeepsort_5.png'></img>
+<img src='../asset/sortDeepsort_5.png'></img>
 
 * the uncertaity represent with a gaussian distribution, with the same mean $\mu$ but different covariance, we say $Q_{k}$
 
-<img src='../assert/sortDeepsort_6.png'></img>
+<img src='../asset/sortDeepsort_6.png'></img>
 
 * then our update formula will add on covatiance $Q_{k}$
 
@@ -163,8 +163,8 @@ real position / velocity <-> measurement
 
 we have measure matrix $H_{k}$ here
 
-<img src='../assert/sortDeepsort_7.png'></img>
-<img src='../assert/sortDeepsort_8.png'></img>
+<img src='../asset/sortDeepsort_7.png'></img>
+<img src='../asset/sortDeepsort_8.png'></img>
 
 again, it is a matrix operation, but we measure at time $k$ not time $k-1$
 
@@ -175,16 +175,16 @@ $$
 \end{aligned}
 $$
 
-<img src='../assert/sortDeepsort_9.png'></img>
+<img src='../asset/sortDeepsort_9.png'></img>
 
 it is still a guaasian distribution
 we set uncertainty of measurement with mean $z_{k}$ covariance $R_{k}$
 
 ## Our idea, combine two infomation
 
-<img src='../assert/sortDeepsort_10.png'></img>
+<img src='../asset/sortDeepsort_10.png'></img>
 
-<img src='../assert/sortDeepsort_11.png'></img>
+<img src='../asset/sortDeepsort_11.png'></img>
 
 * multiple by two gaussian, our new estimation
 
@@ -194,7 +194,7 @@ $$
 N(x, \mu, \sigma) = \frac{1}{\sigma\sqrt{2\pi}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}
 $$
 
-<img src='../assert/sortDeepsort_12.png'></img>
+<img src='../asset/sortDeepsort_12.png'></img>
 
 $N_1 \times N_2$ just add on the exponetional
 we get
@@ -271,10 +271,10 @@ $$
 \end{aligned}
 $$
 
-<img src='../assert/sortDeepsort_13.png'></img>
+<img src='../asset/sortDeepsort_13.png'></img>
 
-<img src='../assert/sortDeepsort_14.png'></img>
-<img src='../assert/sortDeepsort_15.png'></img>
+<img src='../asset/sortDeepsort_14.png'></img>
+<img src='../asset/sortDeepsort_15.png'></img>
 
 # Other
 

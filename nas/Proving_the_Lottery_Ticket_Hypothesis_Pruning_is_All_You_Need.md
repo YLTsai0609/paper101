@@ -17,7 +17,7 @@ Ohad Shamir
 # 其他導讀
 [剪枝与学习权重同等重要，Lottery Ticket Hypothesis第一次被理论证明](https://mp.weixin.qq.com/s/yQY9HF2yWtmSRmu8GsR4rQ?fbclid=IwAR0Eqh24WAIkINZUkQ96cyjwVsqb347q1ZRaLgw-0TpUi3LZUy3eolXnbFM)
 
-<img src='../assert/lth_1.png'></img>
+<img src='../asset/lth_1.png'></img>
 
 [google去年所發表的一項研究 Weight Agnostic Neural Networks 2019, Sep, citation 25+](https://arxiv.org/abs/1906.04358)        
 

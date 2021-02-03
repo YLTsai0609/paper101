@@ -2,7 +2,7 @@
 
 [paper](http://www.nikolako.net/papers/ACM_WSDM2019_RecWalk.pdf)
 
-[github](link2)
+[github-1 julia](https://github.com/nikolakopoulos/RecWalk)
 
 # Abstract
 

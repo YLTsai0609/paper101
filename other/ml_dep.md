@@ -9,6 +9,6 @@
 
 # content
 
-<img src='../assert/dep_1.png'></img>
+<img src='../asset/dep_1.png'></img>
 
 # other-discussion

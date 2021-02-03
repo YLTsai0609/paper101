@@ -39,7 +39,7 @@ two steps:
 
 2. Grouping them to person instance.
 
-<img src='../assert/posenet_3.png'></img>
+<img src='../asset/posenet_3.png'></img>
 
 CNN model will predict (5 stuff): 
 
@@ -79,6 +79,6 @@ Hough score maps $h_k (x), k = 1, ... , K$
 
 # Results
 
-<img src='../assert/posenet_2.png'></img>
+<img src='../asset/posenet_2.png'></img>
 
-<img src='../assert/posenet_1.png'></img>
+<img src='../asset/posenet_1.png'></img>

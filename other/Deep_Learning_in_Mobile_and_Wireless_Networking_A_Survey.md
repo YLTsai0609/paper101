@@ -39,11 +39,11 @@ Intro : high level overview - 有Table來顯示目前Deep Learning以及無線�
 
 也用圖解的方式來說明本篇文章會有什麼內容，在Fig 1中，下面我圈出幾個我們應該要注意到的Section
 
-<img src='../assert/dlNet_1.png'></img>
+<img src='../asset/dlNet_1.png'></img>
 
 1. 當然就是Deep Learning的相關應用，讓我們增廣見聞
 
-<img src='../assert/dlNet_2.png'></img>
+<img src='../asset/dlNet_2.png'></img>
 
 2. Section 6有提到行動端的資料分析，裡面包含了我們有在做的項目可以關注，其中ASR是Automantic Speech Recognition，跟我們比較沒關係
 
@@ -52,9 +52,9 @@ Intro : high level overview - 有Table來顯示目前Deep Learning以及無線�
 The survey collection
 
 這份論文也把Related Work交代得蠻清楚的並且在整理一次，我們可以從這個survey collection table中再挑出我們所需要的，以下紅框是我認為和我們可能比較有關的
-<img src='../assert/dlNet_3.png'></img>
+<img src='../asset/dlNet_3.png'></img>
 
-<img src='../assert/dlNet_4.png'></img>
+<img src='../asset/dlNet_4.png'></img>
 
 # 這篇論文想要回答的問題
 
@@ -74,7 +74,7 @@ p5~p8主要介紹Deep Learning的optimizer原理，直得注意的是p8提到在
 4. 算很久，要達成realtime需要蠻多effort(在我們的case，我們使用edge端運算資源，目前已經有初步結果可以達到realtime)
 5. DL很多參數要調，專業人員的需求度仍然高
 
-<img src='../assert/dlNet_5.png'></img>
+<img src='../asset/dlNet_5.png'></img>
 
 * 面臨以上困擾時我們可以回來翻論文所提供的reference，來參考是否有其他團隊面臨過同樣的問題，以及他們怎麼解決的
 

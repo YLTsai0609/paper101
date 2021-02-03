@@ -32,13 +32,13 @@ Philip S Yu
 * forget gate - 作者分析，在他們選定的情況下，forget gate有80％都處於飽和狀態，也就是forget gate在工作的時候總是記住平穩地變換訊息，可以近似維對整個預測就是類似於線性的推理
 * 一種新的RNN耶夠，MIM blocks - 讓模型能夠更好的學到更多高階非平穩特徵，因為差分的輸入為左下方的hidden state，這種結構不能存在於第一層，所以第一層還是利用ST-LSTM
 
-<img src='../assert/mim_1.png'></img>
+<img src='../asset/mim_1.png'></img>
 
 * experiments : Moving MNIST
 
-<img src='../assert/mim_2.png'></img>
+<img src='../asset/mim_2.png'></img>
 
-<img src='../assert/mim_3.png'></img>
+<img src='../asset/mim_3.png'></img>
 
 * 關於forget gate的飽合率 : 如果forget gate大多數都是0的話，說明該cell一直在刷新，意即短期訊息其實沒有獲得，而加入MIM之後，飽合率下降，**說明更多短期非平穩訊息可以被傳播**，而且MIM-N主要處理的是短期的訊息(無規律的突發事件)，而MIM-S主要處理的是長期的變化(有規律的平穩訊息)
 
