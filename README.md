@@ -56,6 +56,8 @@
 
 [Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba 2018 Jizhe Wang](recomsys/baba_embedding_18.md)
 
+[Learning Tree-based Deep Model for Recommender Systems 2018 Han Zhu](recomsys/tree_recommender.md)
+
 [RecWalk: Nearly Uncoupled Random Walks for Top-N Recommendation 2019 Athanasios N. Nikolakopoulos](recomsys/recwalk.md)
 
 ## Graph Convolution

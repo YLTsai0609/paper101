@@ -287,7 +287,7 @@ Randomwalk + ItemModel(proposed in SLIM)
 | PersonalRank (2002) | introducing random walk into recommendation system |movielens | python 500+  |
 |ItemRank(2007)|random walk on item co-viewed graph|movielens|N/A|
 |Adsorption(2008), Youtube|1. user-item bipartie graph to propergate user information <br> 2. node injection dirty work|private youtube dataset|Java, star 2+|
-|TriPank(2015)|User-Item-Aspect Graph|1. Open Yelp <br> 2. Open Amazon|N/A|
+|TriPank(2015)|User-Item-Aspect Graph, might be useful for cold-start(more infos)|1. Open Yelp <br> 2. Open Amazon|N/A|
 |Pixie(2018)|involve user feature and multi-pins to achieve great engagement|pivate pintrest|Rust, star 5+, partially implementation|
 |RecWalk(2019)|1. apply markov chain-related technique on random walk, achieve SOTA, significantly improve the result <br> 2. User-Item graph plus item similarity transition matrix|1. movielens <br> 2. Open yahoo! R2 Music <br> 3. Open pintrest pin-board opend dataset|Julia, 15+ <br> python 5+|
 
