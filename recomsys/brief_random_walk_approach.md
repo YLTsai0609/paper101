@@ -210,7 +210,7 @@ Yelp : comment website
 
 <!-- <img src='../asset/wsdm_13.png'></img> -->
 
-[paper](https://next-nus.github.io/slides/tuto-cikm2019-public.pdf)
+[paper](https://arxiv.org/pdf/1711.07601.pdf)
 
 [code : rust, partitally implement star 5+](https://github.com/JD557/pixie-rust)
 
