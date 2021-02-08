@@ -2,8 +2,9 @@
 
 [paper]([link1](https://arxiv.org/pdf/1801.02294.pdf))
 
-[github star 39+](https://github.com/LRegan666/Tree_Deep_Model)
+[github star 39+ 2019](https://github.com/LRegan666/Tree_Deep_Model)
 
+[github star 20+ 2020](https://github.com/andrew-zzz/tree-based-deep-model)
 benchmark 
 
 MovieLens-20M
@@ -22,7 +23,7 @@ MovieLens-20M
 
 ## Interest tree modeling -  Max-heap like tree is a tree structure
 
-user $u$ interacted item $n_c$ at tree level $j$ : $p^{(j)}(n_c | u) = 1$
+user $u$ interacted item $n_c$ at leaves, how to construct category?
 
 how to propagate category preference from items? - keep the maximum, do layer normalization(first version, we keep it simple)
 
@@ -34,19 +35,59 @@ $$
 
 $J$ is the n's children noeds in $j+1$ level.
 
+$\alpha^{(j)}$ is the layer-specific normalization term of level $j$ to ensure that probability sim in the level equals to 1.
+
+$p^{j}(n|u)$ a.k.a. the ground truth probability that user $u$ is interested in $n$
+
 e.g. user $u$ click 2 items.
 
 <img src='../asset/treerec_3.jpg'></img>
 
+<img src='../asset/treerec_4.png'></img>
+
 ## Algorithm to pick Top - k
 
-Deep Model
+beam search 
+
+<img src='../asset/treerec_5.png'></img>
+
+<img src='../asset/treerec_8.png'></img>
+
+## How to learn?
+
+How to learn a tree match our design?
+
+<img src='../asset/treerec_6.png'></img>
+
+fit a simple model at each layer $j$ to match our ground truth probability distribution.
+
+postive sample : behaviored by user
+
+negtive sample : random sampling from non-brhaviored.
+
+### learning the tree tructure by layerwise classifier
+
+<img src='../asset/treerec_7.png'></img>
+
+The node at $j$ should make the node $j+1$ more separable!
+
+<img src='../asset/treerec_9.png'></img>
+
+### combining any candidate generation model
 
 # Result
 
 <img src='../asset/treerec_1.png'></img>
 
 <img src='../asset/treerec_2.png'></img>
+
+# Summary
+
+<img src='../asset/treerec_10.png'></img>
+
+<img src='../asset/treerec_11.png'></img>
+
+<img src='../asset/treerec_12.png'></img>
 
 # Other Discussion
 
@@ -56,6 +97,23 @@ Deep Model
 
 [TDM Serving Alibaba official doc](https://github.com/alibaba/x-deeplearning/wiki/TDMServing)
 
-# Stats
+# Misc
 
-2 hr - tree construction, search algorithm
+| terminology | means | note |
+|-------------|-------|------|
+| 檢索        |   calculate fast in candidate generation    |      |
+| 召回/匹配        |  calculate accuract in candidate generation     |      |
+
+|召回环节 / 匹配环节|candidate generation|
+
+<img src='../asset/treerec_13.png'></img>
+
+<img src='../asset/treerec_14.png'></img>
+
+<img src='../asset/treerec_15.png'></img>
+
+They basically break the candidate generation part into retrieve(檢索) and recalling(召回)
+
+<img src='../asset/treerec_16.png'></img>
+
+Big number of $U$(users) and $I$(items), so we have to do this.(Tree based candidate generation Deep Learning Model)
