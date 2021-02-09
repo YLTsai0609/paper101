@@ -41,3 +41,7 @@ from UCI, Kaggle, MNIST
 # Other Discussion
 
 [VGM - BayesianGaussianMixture from sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.mixture.BayesianGaussianMixture.html)
+
+[(ML 16.6) Gaussian mixture model (Mixture of Gaussians)](https://www.youtube.com/watch?v=Rkl30Fr2S38)
+
+[Gaussian Mixture Models](https://www.youtube.com/watch?v=q71Niz856KE)

@@ -1,9 +1,5 @@
 # Brief Introduction of Random Walk-based Modeling
 
-<!-- # Recommendation Framework -->
-
-<!-- <img src='../asset/wsdm_1.png'></img> -->
-
 # 二分圖表示法(Bipartite Graph)
 
 Record $(u, i)$ : 使用者$u$對物品$i$產生過行為，這樣的資料可以用一個二分圖表示
@@ -41,48 +37,20 @@ Meaning of value : row node goes out to column node.
 **Normalized by out-degree(row)**
 
 $$
-A_{v \times v} = \begin{pmatrix} 0& 0 & 0 & 0 & \frac{1}{3} & \frac{1}{3} & 0 & \frac{1}{3} & 0
+A_{v \times v} = 
+\begin{pmatrix} 0& 0 & 0 & 0 & \frac{1}{3} & \frac{1}{3} & 0 & \frac{1}{3} & 0
 \\ 0 & 0 & 0 & 0 & \frac{1}{2} & 0 &  \frac{1}{2} & 0  & 0
 \\ 0 & 0 & 0 & 0 & 0 &  \frac{1}{2} & 0  & 0 & \frac{1}{2}
-\\ 0 & 0 & 0 & 0 & 0 &  0 & \frac{1}{2}  & \frac{1}{2} & 0
+\\ 0 & 0 & 0 & 0 & 0 &  0 & \frac{1}{3}  & \frac{1}{3} & \frac{1}{3}
 
 \\ \frac{1}{2} & \frac{1}{2} & 0 & 0 & 0 &  0 & 0  & 0 & 0
 \\ \frac{1}{2} & 0 & \frac{1}{2} & 0 & 0 &  0 & 0  & 0 & 0
 \\ 0 & \frac{1}{2} & 0 & \frac{1}{2} & 0 &  0 & 0  & 0 & 0
 \\ \frac{1}{2} & 0 & 0 & \frac{1}{2} & 0 &  0 & 0  & 0 & 0
-\\ 0 & 0 & 1 & 0 & 0 &  0 & 0  & 0 & 0
+\\ 0 & \frac{1}{2} & \frac{1}{2} & 0 & 0 &  0 & 0  & 0 & 0
 
 \end{pmatrix}\quad
 $$
-
-<!-- ### 舉例
-
-<img src='../asset/rw_2.png'></img>
-
-A-c vs A-e
-
-1. 有幾條路連通?
-
-    - A-c : 2條 (A-a-B-c, A-d-D-c)
-    - A-e : 1條 (A-b-C-e)
-
-     - 對A來說，c比e關係更強
-
-2. 聯通的路徑長度是多少?
-
-   
-   - A-c : 長度為3(A-a-B-c, A-d-D-c)  
-   - A-e : 長度為3(A-b-C-e)
-
-3. 聯通路徑的經過頂點out-degree? - 這個做法可以抑制商品以及什麼都喜歡的User
-
-    
-
-   - A-c : (A(3) - a(2) - B(2) - c(2)
-   - A-c : (A(3) - d(2) - D(2) - c(2)
-   - A-e : (A(3) - b(2) - C(2) - e(1)
-
-基於以上的思考邏輯，研究人員設計了很多種計算圖中頂點相關性的方法，以下是一個基於隨機遊走(Random walk based)的算法PersonalRank -->
 
 ## Topic-sensitive PageRank(2002) a.k.a. PersonalRank
 
@@ -116,8 +84,6 @@ personalrank(user_i : int) -> item_distribution : Dict[int, int]
 <img src='../asset/rw_3.png'></img>
 <img src='../asset/rw_4.png'></img>
 
-Movielens-100M
-
 ## Asorption : Random Walk Through View Graph(2008, Shumeet Baluja, citation 540+)
 
 [paper](https://dl.acm.org/doi/pdf/10.1145/1367497.1367618?casa_token=fd3ZjMMcdcIAAAAA:jD7FGKFX0m9zBMvUG3lWGrdZot7JL6eucg0dPS4CC1TPfxgkiWygVkgPZYYccUYopF0tRMlDPCvRdNM)
@@ -125,27 +91,6 @@ Movielens-100M
 [code  : java, mapreudce on hahoop 2+ stars](https://github.com/natc221/AdsorptionMR)
 
 benchmark : Youtube Private dataset.
-<!-- <img src='../asset/wsdm_6.png'></img> -->
-
-<!-- Two ways to build user-video relation -->
-
-<!-- ## Video-Video Co-View Graph -->
-
-<!-- <img src='../asset/wsdm_7.png'></img> -->
-
-<!-- (This is my guessing)
-
-1. Define a ofter co-viewed as a edge link
-
-   1. (e.g. start with item $A$, most co-viewed top 3 ：
-   2.  $B, C, D$)
-   3. link $A \rightarrow B$, $A \rightarrow C$, $A \rightarrow D$
-
-      Where $B$ is the most co-viewed when saw $A$
-
-   4. repeat 1, 2, create $E, F, G$ where $E$ is the most co-viewed when saw $B$  -->
-
-<!-- <img src='../asset/wsdm_8.png'></img> -->
 
 ## User-Video Graph
 
@@ -170,8 +115,6 @@ Raondom walk on a **Item-Correlation Graph** build from User-Item interaction.
 <img src='../asset/rw_10.jpg'></img>
 <img src='../asset/rw_11.jpg'></img>
 
-<!-- <img src='../asset/wsdm_9.png'></img> -->
-
 ## TriRank: Review-aware Explainable Recommendation by Modeling Aspects(2015, citation 250+ Xiangnan He)
 
 [paper](http://www.cs.jhu.edu/~taochen/data/pubs/cikm15.pdf)
@@ -189,8 +132,6 @@ Yelp : 49.6% user only made one review
 
 Amazon(electronics caegory) : 77.9% of users making only one review.
 
-<!-- <img src='../asset/wsdm_10.png'></img> -->
-
 <img src='../asset/rw_14.png'></img>
 
 <img src='../asset/wsdm_11.png'></img>
@@ -207,8 +148,6 @@ Yelp : comment website
 2. the cleaness of aspect matters.
 
 ## Pixie: A System for Recommending 3+ Billion Items to 200+ Million Users in Real-Time.(2018, citation 70+, Eksombatchai et al)
-
-<!-- <img src='../asset/wsdm_13.png'></img> -->
 
 [paper](https://arxiv.org/pdf/1711.07601.pdf)
 
@@ -260,8 +199,6 @@ single terabyte-scale RAM machine.
 
 ## RecWalk: Nearly Uncoupled Random Walks for Top-N Recommendation(2019, citation 22+, Nikolakopoulos et al)
 
-<!-- <img src='../asset/wsdm_14.png'></img> -->
-
 [paper](https://dl.acm.org/doi/pdf/10.1145/3289600.3291016?casa_token=FptgHIPh610AAAAA:695jSPFowSeeqZ_owl56h71XRz51_rnSTMthjv_cjXNuOQBK3kOVX1PDFda55YQsdvaBPWp6x1s)
 
 [code : julia 15+ stars](https://github.com/nikolakopoulos/RecWalk)
@@ -279,8 +216,6 @@ Randomwalk + ItemModel(proposed in SLIM)
 <img src='../asset/rw_15.jpg'></img>
 
 ## Summary
-
-<!-- <img src='../asset/wsdm_15.png'></img> -->
 
 | Method              | Idea                                                        | Benchmark|Code|
 |---------------------|-------------------------------------------------------------|----------|----|
