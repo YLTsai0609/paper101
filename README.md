@@ -89,3 +89,5 @@
 [Deep_Learning_in_Mobile_and_Wireless_Networking_A_Survey](other/Deep_Learning_in_Mobile_and_Wireless_Networking_A_Survey.md)
 
 [Challenges_in_Deploying_Machine_Learning__a_Survey_of_Case_Studies](other/ml_dep.md)
+
+[Modeling Tabular Data using Conditional GAN](other/ctgan.md)
