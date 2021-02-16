@@ -16,10 +16,13 @@
 
 # Idea
 
+# Result
+
 # Other Discussion
 
 1. Fast training
-2. high coverage(fat tail gold washing)
+2. high coverage(fat tail gold digging)
+3. comprehensive experiments which is worth reading
 
 # ppt
 
