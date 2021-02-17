@@ -60,6 +60,8 @@
 
 [RecWalk: Nearly Uncoupled Random Walks for Top-N Recommendation 2019 Athanasios N. Nikolakopoulos](recomsys/recwalk.md)
 
+[AutoFIS: Automatic Feature Interaction Selection in Factorization Models for Click-Through Rate Prediction 2020 Bin Liu](recomsys/auto_fis.md)
+
 ## Graph Convolution
 
 [Graph Convolutional Neural Networks for Web-Scale Recommender Systems 2018 Rex Ying](recomsys/Graph_Convolutional_Neural_Networks_for_Web-Scale_Recommender_Systems.md)
