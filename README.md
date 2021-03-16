@@ -1,5 +1,7 @@
 # Computer Vision
 
+[Rethinking Pre-training and Self-training](cv/self_trn_vs_pretrain.md)
+
 [A_Survey_on_3D_Skeleton-Based_Action_Recognition_Using_Learning_Method 2020 B Ren](cv/A_Survey_on_3D_Skeleton-Based_Action_Recognition_Using_Learning_Method.md)
 
 [CrowdHuman: A Benchmark for Detecting Human in a Crowd 2018 S Shao](cv/Crowdhuman_A_benchmark_for_detecting_human_in_a_crowd.md)
