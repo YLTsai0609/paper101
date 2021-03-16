@@ -63,13 +63,19 @@ Also, follow eq(4).
 when we set $\alpha = 0$, we get slim.
 when we set $\alpha = 1$, we get simple random walk.
 
+<img src='../asset/recwalk_8.png'></img>
+
 # Result
 
 <img src='../asset/recwalk_6.png'></img>
 
 <img src='../asset/recwalk_7.png'></img>
 
-TODO - algorithm to know table 2 setting including $C$, $\gamma_{1}, \gamma_{2}$
+$C$ : number of nearest number of items.
+
+$\gamma_{1}$ : coefficient of linear regularization term.
+
+$\gamma_{2}$ : coefficient of spquare linear regularization term.
 
 # Other Discussion
 
