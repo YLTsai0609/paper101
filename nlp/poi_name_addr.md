@@ -96,3 +96,9 @@ Inside Feature : 強烈判斷資訊 - 大部分商家名稱由三個部分組成
 # Result
 
 # Other Discussion
+
+related paper
+
+[基於已知名稱搜尋結果的網路實體辨識模型建立工具](https://www.aclweb.org/anthology/O15-1015.pdf)
+
+[基於 Web 之商家景點擷取與資料庫建置](https://www.aclweb.org/anthology/O15-1018.pdf)
