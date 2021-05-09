@@ -2,7 +2,7 @@
 
 [paper](https://arxiv.org/pdf/2006.06882.pdf)
 
-[github]([link2](https://paperswithcode.com/paper/rethinking-pre-training-and-self-training))
+[github](https://paperswithcode.com/paper/rethinking-pre-training-and-self-training)
 
 benchmark - coco object detection / PASCAL VOC Semantic Segmentation
 

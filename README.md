@@ -32,6 +32,12 @@
 
 # Natural Language Processing
 
+## Name Entity Recognition
+
+[POI 擷取:商家名稱辨識與地址配對之研究](nlp/poi_name_addr.md)
+
+[基於已知名稱搜尋結果的網路實體辨識模型建立工具](nlp/ner_search_snippets.md)
+
 # Recommendation System 
 
 ## Survey
