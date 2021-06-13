@@ -95,6 +95,10 @@
 
 [Proving_the_Lottery_Ticket_Hypothesis_Pruning_is_All_You_Need 2020 E Malach](nas/Proving_the_Lottery_Ticket_Hypothesis_Pruning_is_All_You_Need.md)
 
+# Statistical Modeling
+
+[Where To Next? A Dynamic Model of User Preferences, 2021, Apr, Spotify](stat_md/preference_trainsition_model.md)
+
 # Other
 
 [Deep_Learning_in_Mobile_and_Wireless_Networking_A_Survey](other/Deep_Learning_in_Mobile_and_Wireless_Networking_A_Survey.md)
