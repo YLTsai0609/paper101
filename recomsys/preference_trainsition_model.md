@@ -30,6 +30,8 @@ benchmark 的部分 拿了一些統計模型以及 Non-Negtive Matrix Facotrizat
 
 hypothesis : 使用者的聆聽風格和他過往的風格以及當下的風格有關係
 
+EWMA distribution : Exponential Weighted Moving Average Distribution
+
 <img src='../asset/ptm_3.png'></img>
 
 <img src='../asset/ptm_4.jpg'></img>
