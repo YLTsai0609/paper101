@@ -75,6 +75,10 @@
 
 [Graph Convolutional Neural Networks for Web-Scale Recommender Systems 2018 Rex Ying](recomsys/Graph_Convolutional_Neural_Networks_for_Web-Scale_Recommender_Systems.md)
 
+## Byesian Learning
+
+[Collaborative topic regression  for online recommender systems: An online and Bayesian approach](recomsys/online_bayesian_topic_regression.md)
+
 ## Engineering Challenge
 
 [Related Pins at Pinterest: The Evolution of a Real-World Recommender System 2018 David C. Liu](pintrest_2018.md)

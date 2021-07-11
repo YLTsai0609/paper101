@@ -1,5 +1,9 @@
 # Paper Title
 
+citations:
+
+year:
+
 [paper](link1)
 
 [github](link2)
@@ -8,8 +12,8 @@ benchmark -
 
 # Abstract
 
-# Idea
-
 # Result
+
+# Evaluation Procedure
 
 # Other Discussion
