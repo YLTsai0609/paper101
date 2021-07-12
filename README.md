@@ -34,11 +34,16 @@
 
 ## Name Entity Recognition
 
-[POI 擷取:商家名稱辨識與地址配對之研究](nlp/poi_name_addr.md)
+## PoI
 
-[基於已知名稱搜尋結果的網路實體辨識模型建立工具](nlp/ner_search_snippets.md)
+[整合多種搜尋結果以提高 POI 搜尋的準確性](nlp/poi/multiple_search_for_poi.md)
 
-[PTT 網站餐廳美食類別擷取之研究](nlp/poi_restaurant_type.md)
+[POI 擷取:商家名稱辨識與地址配對之研究](nlp/poi/poi_name_addr.md)
+
+[基於已知名稱搜尋結果的網路實體辨識模型建立工具](nlp/poi/ner_search_snippets.md)
+
+[PTT 網站餐廳美食類別擷取之研究](nlp/poi/poi_restaurant_type.md)
+
 # Recommendation System 
 
 ## Survey
@@ -99,12 +104,12 @@
 
 [Where To Next? A Dynamic Model of User Preferences, 2021, Apr, Spotify](stat_md/preference_trainsition_model.md)
 
+
 # Other
+
 
 [Deep_Learning_in_Mobile_and_Wireless_Networking_A_Survey](other/Deep_Learning_in_Mobile_and_Wireless_Networking_A_Survey.md)
 
 [Challenges_in_Deploying_Machine_Learning__a_Survey_of_Case_Studies](other/ml_dep.md)
 
 [Modeling Tabular Data using Conditional GAN](other/ctgan.md)
-
-[整合多種搜尋結果以提高 POI 搜尋的準確性](http://search.taai.org.tw/paper/2015/0/%E6%95%B4%E5%90%88%E5%A4%9A%E7%A8%AE%E6%90%9C%E5%B0%8B%E7%B5%90%E6%9E%9C%E4%BB%A5%E6%8F%90%E9%AB%98POI%E6%90%9C%E5%B0%8B%E7%9A%84%E6%BA%96%E7%A2%BA%E6%80%A7.pdf)
