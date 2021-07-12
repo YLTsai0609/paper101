@@ -66,3 +66,8 @@ MovieLens 10M stats:
 records : 10,000,053 (10M)
 user : 69,878
 items : 10,681
+
+Not Implemented
+
+check : https://www.cakeresume.com/kcl10-pm-view
+
