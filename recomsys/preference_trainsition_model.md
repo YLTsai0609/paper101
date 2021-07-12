@@ -1,4 +1,4 @@
-# Paper Title
+# Where To Next? A Dynamic Model of User Preferences
 
 [paper](https://www.cs.toronto.edu/~ashton/pubs/spotify-ptm-www2021.pdf)
 
