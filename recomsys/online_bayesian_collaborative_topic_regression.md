@@ -69,5 +69,12 @@ items : 10,681
 
 Not Implemented
 
-check : https://www.cakeresume.com/kcl10-pm-view
+check : 
+
+https://www.cakeresume.com/kcl10-pm-view
+
+https://www.linkedin.com/in/kuanchoulai/
+
+
+
 
