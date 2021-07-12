@@ -5,7 +5,7 @@ citation : 1658
 
 [paper](http://www.cse.cuhk.edu.hk/irwin.king.new/_media/presentations/wangblei2011.pdf)
 
-[code official C++](https://github.com/blei-lab/ctr))
+[code official C++](https://github.com/blei-lab/ctr)
 
 [code - thirdparty - python](https://github.com/PreferredAI/cornac)
 
@@ -71,6 +71,8 @@ inference : variational inference
 [推荐系统有哪些比较好的论文？](https://www.zhihu.com/question/25566638/answer/112984019)
 
 1. 嘗試解決冷啟動(混合user-item-rating matrix & Topic Modeling) - 至於解得好不好，要拿這些方法一起比較才準
-2. 具推薦解釋性(by topic)
+2. 具推薦解釋性(by topic and words)
 
 [Review the topic modeling from note](https://github.com/YLTsai0609/DataScience_Note/blob/master/Topic_Modeling_LDA.md)
+
+[Review the multinominal distribution from note](https://github.com/YLTsai0609/DataScience_Note/blob/master/All_about_the_distribution.md)
