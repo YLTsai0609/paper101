@@ -30,7 +30,7 @@ Collaborative Topic Regression (話題協同回歸) 結合了兩個概念 1. 機
 1. 模型設計是基於 btach learning - 因此對於 streamming data / big data 不太適合
 2. the item-specific topic proportions of LDA are fed to the downstream PMF, but not reverse.
 
-我們提出一套新的推論算法 - Online Bayesian Inference algorithm for CTR model, 這是一套能夠從data stream 有效學習，可規模化的算法，我們的實驗結果戰士了此算法在真實世界資料集上的有效性
+我們提出一套新的推論算法 - Online Bayesian Inference algorithm for CTR model, 這是一套能夠從data stream 有效學習，可規模化的算法，我們的實驗結果證實了此算法在真實世界資料集上的有效性
 
 # Idea
 
