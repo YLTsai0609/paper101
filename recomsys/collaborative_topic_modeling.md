@@ -11,10 +11,39 @@ citation : 1658
 
 benchmark - CiteULike
 
+CiteUlike(2004 ~ 2010):
+
+1. registered create personal reference libraries
+2. each article usually has a title and abstract
+
+preprocessing:
+1. merge duplicated articles
+2. removed empty articles
+3. filter user with fewer than 10 articles
+
+stats of dataset:
+
+---user-article pairs---
+
+1. 5,551 users
+2. 16,980 articles
+3. 204,986 pairs
+4. sparsity 99.8% --> high sparse
+5. On average - 37 articles / per user
+
+---copus---
+
+document : concatenate title and abstract for each article
+
+corpus : all documents
+
+1. remove stop-word
+2. select Top 8000 words by tfidf over corpus. -->  vocabulary set.
+
 # Abstract
 combine traiditiomal collaborative filtering and probabilistic topic modeling.
 
-It provides an interpretable latent structure foe user and items. and can form recommendations about both eexisting and newly published articles.
+It provides an interpretable latent structure for user and items. and can form recommendations about both existing and newly published articles.
 
 # Idea
 
@@ -65,6 +94,12 @@ inference : variational inference
 # Evaluation Procedure
 
 # Result
+
+<img src='../asset/ctm_3.png'></img>
+
+<img src='../asset/ctm_4.png'></img>
+
+<img src='../asset/ctm_2.png'></img>
 
 # Other Discussion
 
