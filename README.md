@@ -80,9 +80,15 @@
 
 [Graph Convolutional Neural Networks for Web-Scale Recommender Systems 2018 Rex Ying](recomsys/Graph_Convolutional_Neural_Networks_for_Web-Scale_Recommender_Systems.md)
 
-## Byesian Learning
+## Hybird Model(Ratings and Content)
 
-[Collaborative topic regression  for online recommender systems: An online and Bayesian approach](recomsys/online_bayesian_topic_regression.md)
+[Collaborative_topic_modeling 2011](recomsys/collaborative_topic_modeling.md)
+
+[Collaborative topic poisson factorization 2014](recomsys/collaborative_topic_poisson_factorization.md)
+
+[Collaborative deep learning for recommendations system 2015](recomsys/cdl.md)
+
+[Collaborative topic regression  for online recommender systems: An online and Bayesian approach 2017](recomsys/online_bayesian_topic_regression.md)
 
 ## Engineering Challenge
 
