@@ -27,6 +27,18 @@ some insights, e.g.
 
 2. positive influence of novelty on recommendation coverage.
 
+Overall
+
+Maximize accuracy 
+
+s.t.
+
+coverage > A
+
+diversity > B
+
+novelty > C
+
 # Detail
 ## Diversity
 
@@ -57,6 +69,7 @@ Diversity = $\frac{2*(0.2+0.2+0.3)}{3x2} = 0.23$
 2. item distance can also be obtained from the latent feature vector in matrix factorization approaches.
 3. The balance between the diversity and accuracy of results is a widely discussed
 topic in information retrieval and recommender systems research.
+4. helps user experience (i.e. maximize revenue in single session.)
 
 ## Increaing Diversity.
 
@@ -87,8 +100,10 @@ Recent work on recommendation reranking for diversity has focused on designing m
 1. closely related to serendipity(驚喜度)
 2. the definition of novelty in the RS literature is inspired by IR research. Baeza-Yates and Ribeiro-Neto [1999] were among the first to discuss novelty as an important quality in information retrieval.
 3. an itme's novelty is approximated using its popularity among users of the recommender system. - the less popular an item is, the more likely it is to be unkown to the user.
-4. novelty  is typically defined as the complement of the item's popularity in the dataset : $1-p(i)$, where $p(i) = \feac{|u\in U,  r_{ui} \neq \emptyset|}{|U|}$ is the fraction of users who rated item $i$
-5. a slight variation to define novelty as the negtive of the log of the ratio $ - log p(_{i})$ - this formulation is called the self-unformation of an item $i$
+4. novelty  is typically defined as the complement of the item's popularity in the dataset : $1-p(i)$, where $p(i) = \frac{|u\in U,  r_{ui} \neq \emptyset|}{|U|}$ is the fraction of users who rated item $i$
+5. a slight variation to define novelty as the negtive of the log of the ratio $-logp(i)$ - this formulation is called the self-unformation of an item $i$
+6. **helps user experiences**
+7. **item provider should care this metrics.**
 
 the novelty of individual recommendations is aggregated into a single score for a list of recommendations $R$
 
@@ -116,6 +131,21 @@ Some early study :
 
 ## Coverage
 
+1. the fraction of items that appear in the user's recommendation list
+2. so called catalog coverage, is different from prediction coverage(serving coverage)
+3. **content-provider care this metrics**
+4. can consider freq, not only union of items.
+
+$Coverage = \frac{\bigcup_{u \in U} R_{u}}{|I|}$
+
+$R_{u}$ is the set of all recommendations generated for user $u$, $U$ is the set of all users of the system, I is the item catalog.
+
+## Increasing Coverage
+
+1. linked to the novelty of recommendation - novelty and coverage are highly correlated.
+2. reducing populairty bias is the key.
+
+pass
 
 # Result 
 

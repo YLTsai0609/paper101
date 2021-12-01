@@ -50,6 +50,9 @@
 
 [Learning and Reasoning on Graph for Recommendation WSDM 2020 Conference Tutorial](recomsys/wsdm_2020.md)
 
+[Diversity, Serendipity, Novelty, and Coverage: A Survey and Empirical
+Analysis of Beyond-Accuracy Objectives in Recommender Systems ACM 2016](recomsys/metrics_17.md)
+
 ## Embedding 
 
 [Factorization Machines 2010](recomsys/fm.md)
