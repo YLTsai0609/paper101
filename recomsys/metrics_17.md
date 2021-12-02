@@ -6,9 +6,11 @@ year: 2017
 
 [paper](http://old-eclass.uop.gr/modules/document/file.php/DIT104/%CE%92%CE%B9%CE%B2%CE%BB%CE%B9%CE%BF%CE%B3%CF%81%CE%B1%CF%86%CE%AF%CE%B1%202017-2018/Diversity%2C%20Serendipity%2C%20Novelty%2C%20and%20Coverage.pdf)
 
-github -N/A
+github - N/A
 
 benchmark - N/A
+
+[Connected Paper](https://www.connectedpapers.com/main/f59605273fb4bf12bc71f2ea300bbd8b5afe6fd6/Novelty-and-diversity-enhancement-and-evaluation-in-recommender-systems-and-information-retrieval/graph)
 
 # Abstract
 
