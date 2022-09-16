@@ -79,6 +79,8 @@ Analysis of Beyond-Accuracy Objectives in Recommender Systems ACM 2016](recomsys
 
 [AutoFIS: Automatic Feature Interaction Selection in Factorization Models for Click-Through Rate Prediction 2020 Bin Liu](recomsys/auto_fis.md)
 
+[A Generic Top-N Recommendation Framework For Trading-off Accuracy, Novelty, and Coverage](recomsys/greedy_post_processing.md)
+
 ## Graph Convolution
 
 [Graph Convolutional Neural Networks for Web-Scale Recommender Systems 2018 Rex Ying](recomsys/Graph_Convolutional_Neural_Networks_for_Web-Scale_Recommender_Systems.md)
@@ -111,14 +113,15 @@ Analysis of Beyond-Accuracy Objectives in Recommender Systems ACM 2016](recomsys
 
 [Where To Next? A Dynamic Model of User Preferences, 2021, Apr, Spotify](stat_md/preference_trainsition_model.md)
 
-## Engineering
+# Engineering
 
 [Related Pins at Pinterest: The Evolution of a Real-World Recommender System 2018 David C. Liu](engineering/pintrest_2018.md)
 
 [DRecPy: A Python Framework for Developing Deep Learning-Based Recommenders 2020 Fábio Colaço](engineering/drecpy.md)
 
-[The Optimization of Cost-Model for Join Operator on Spark SQL
-Platform 2018 Xin Lian, Tianyu Zhang](engineering/spark_join.md)
+[The Optimization of Cost-Model for Join Operator on Spark SQL Platform 2018 Xin Lian, Tianyu Zhang](engineering/spark_join.md)
+
+[TopK Join](engineering/topk_join.md)
 
 # Other
 
