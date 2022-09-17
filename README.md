@@ -55,13 +55,8 @@
 
 [Learning and Reasoning on Graph for Recommendation WSDM 2020 Conference Tutorial](recomsys/wsdm_2020.md)
 
-[Diversity, Serendipity, Novelty, and Coverage: A Survey and Empirical Analysis of Beyond-Accuracy Objectives in Recommender Systems ACM 2016](recomsys/metrics_17.md)
-
-[ExplainAble Recommendation and Search (EARS) 2019](recomsys/ears.md)
-
-## Explainable Recommender
-
-[Explicit Factor Models for Explainable Recommendation based on Phrase-level Sentiment Analysis](recomsys/efm.md)
+[Diversity, Serendipity, Novelty, and Coverage: A Survey and Empirical
+Analysis of Beyond-Accuracy Objectives in Recommender Systems ACM 2016](recomsys/metrics_17.md)
 
 ## Embedding 
 
@@ -89,6 +84,8 @@
 
 [AutoFIS: Automatic Feature Interaction Selection in Factorization Models for Click-Through Rate Prediction 2020 Bin Liu](recomsys/auto_fis.md)
 
+[A Generic Top-N Recommendation Framework For Trading-off Accuracy, Novelty, and Coverage](recomsys/greedy_post_processing.md)
+
 ## Graph Convolution
 
 [Graph Convolutional Neural Networks for Web-Scale Recommender Systems 2018 Rex Ying](recomsys/Graph_Convolutional_Neural_Networks_for_Web-Scale_Recommender_Systems.md)
@@ -102,12 +99,6 @@
 [Collaborative deep learning for recommendations system 2015](recomsys/cdl.md)
 
 [Collaborative topic regression  for online recommender systems: An online and Bayesian approach 2017](recomsys/online_bayesian_topic_regression.md)
-
-## Engineering Challenge
-
-[Related Pins at Pinterest: The Evolution of a Real-World Recommender System 2018 David C. Liu](pintrest_2018.md)
-
-[DRecPy: A Python Framework for Developing Deep Learning-Based Recommenders 2020 Fábio Colaço](drecpy.md)
 
 # Optimization and Generalization
 
@@ -127,6 +118,15 @@
 
 [Where To Next? A Dynamic Model of User Preferences, 2021, Apr, Spotify](stat_md/preference_trainsition_model.md)
 
+# Engineering
+
+[Related Pins at Pinterest: The Evolution of a Real-World Recommender System 2018 David C. Liu](engineering/pintrest_2018.md)
+
+[DRecPy: A Python Framework for Developing Deep Learning-Based Recommenders 2020 Fábio Colaço](engineering/drecpy.md)
+
+[The Optimization of Cost-Model for Join Operator on Spark SQL Platform 2018 Xin Lian, Tianyu Zhang](engineering/spark_join.md)
+
+[TopK Join](engineering/topk_join.md)
 
 # Other
 
