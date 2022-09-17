@@ -44,6 +44,11 @@
 
 [PTT 網站餐廳美食類別擷取之研究](nlp/poi/poi_restaurant_type.md)
 
+## High Cardinalities
+
+[Naive Bayes smoothing](nlp/naive_bayes_smoothing.md)
+
+
 # Recommendation System 
 
 ## Survey
