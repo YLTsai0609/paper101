@@ -128,6 +128,8 @@ Analysis of Beyond-Accuracy Objectives in Recommender Systems ACM 2016](recomsys
 
 [TopK Join](engineering/topk_join.md)
 
+[Scalable similarity-based neighborhood methods with MapReduce 2012](engineering/s_nn.md)
+
 # Other
 
 
