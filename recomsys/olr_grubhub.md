@@ -8,7 +8,6 @@ year: 2021
 
 [github](link2)
 
-benchmark - 
 
 # Abstract
 
