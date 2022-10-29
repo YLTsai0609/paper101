@@ -42,6 +42,8 @@
 
 [Billion-scale Commodity Embedding for E-commerce Recommendation in Alibaba 2018 Jizhe Wang](recomsys/baba_embedding_18.md)
 
+[AutoFIS: Automatic Feature Interaction Selection in Factorization Models for Click-Through Rate Prediction 2020 Bin Liu](recomsys/auto_fis.md)
+
 ## Random walk
 
 [brief random walk approach survey](recomsys/brief_random_walk_approach.md)
@@ -55,8 +57,6 @@
 [Learning Tree-based Deep Model for Recommender Systems 2018 Han Zhu](recomsys/tree_recommender.md)
 
 [RecWalk: Nearly Uncoupled Random Walks for Top-N Recommendation 2019 Athanasios N. Nikolakopoulos](recomsys/recwalk.md)
-
-[AutoFIS: Automatic Feature Interaction Selection in Factorization Models for Click-Through Rate Prediction 2020 Bin Liu](recomsys/auto_fis.md)
 
 
 ## Graph Convolution
@@ -80,7 +80,6 @@
 [Diversity, Serendipity, Novelty, and Coverage: A Survey and Empirical Analysis of Beyond-Accuracy Objectives in Recommender Systems ACM 2016](recomsys/metrics_17.md)
 
 [A Generic Top-N Recommendation Framework For Trading-off Accuracy, Novelty, and Coverage](recomsys/greedy_post_processing.md)
-
 
 # Natural Language Processing
 
@@ -122,6 +121,8 @@
 
 # Engineering
 
+[Online Learning for Recommendations at Grubhub 2021 Alex Egg ACM]()
+
 [Related Pins at Pinterest: The Evolution of a Real-World Recommender System 2018 David C. Liu](engineering/pintrest_2018.md)
 
 [DRecPy: A Python Framework for Developing Deep Learning-Based Recommenders 2020 Fábio Colaço](engineering/drecpy.md)
@@ -133,6 +134,7 @@
 [Scalable similarity-based neighborhood methods with MapReduce 2012](engineering/s_nn.md)
 
 [Challenges_in_Deploying_Machine_Learning_a_Survey_of_Case_Studies](other/ml_dep.md)
+
 
 # Other
 
