@@ -81,6 +81,22 @@
 
 [A Generic Top-N Recommendation Framework For Trading-off Accuracy, Novelty, and Coverage](recomsys/greedy_post_processing.md)
 
+# Engineering
+
+[Online Learning for Recommendations at Grubhub 2021 Alex Egg ACM]()
+
+[Related Pins at Pinterest: The Evolution of a Real-World Recommender System 2018 David C. Liu](engineering/pintrest_2018.md)
+
+[DRecPy: A Python Framework for Developing Deep Learning-Based Recommenders 2020 Fábio Colaço](engineering/drecpy.md)
+
+[The Optimization of Cost-Model for Join Operator on Spark SQL Platform 2018 Xin Lian, Tianyu Zhang](engineering/spark_join.md)
+
+[TopK Join](engineering/topk_join.md)
+
+[Scalable similarity-based neighborhood methods with MapReduce 2012](engineering/s_nn.md)
+
+[Challenges_in_Deploying_Machine_Learning_a_Survey_of_Case_Studies](other/ml_dep.md)
+
 # Natural Language Processing
 
 ## Name Entity Recognition
@@ -118,22 +134,6 @@
 ## Statistical Modeling
 
 [Where To Next? A Dynamic Model of User Preferences, 2021, Apr, Spotify](stat_md/preference_trainsition_model.md)
-
-# Engineering
-
-[Online Learning for Recommendations at Grubhub 2021 Alex Egg ACM]()
-
-[Related Pins at Pinterest: The Evolution of a Real-World Recommender System 2018 David C. Liu](engineering/pintrest_2018.md)
-
-[DRecPy: A Python Framework for Developing Deep Learning-Based Recommenders 2020 Fábio Colaço](engineering/drecpy.md)
-
-[The Optimization of Cost-Model for Join Operator on Spark SQL Platform 2018 Xin Lian, Tianyu Zhang](engineering/spark_join.md)
-
-[TopK Join](engineering/topk_join.md)
-
-[Scalable similarity-based neighborhood methods with MapReduce 2012](engineering/s_nn.md)
-
-[Challenges_in_Deploying_Machine_Learning_a_Survey_of_Case_Studies](other/ml_dep.md)
 
 
 # Other
