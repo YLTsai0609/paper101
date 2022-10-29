@@ -13,4 +13,4 @@ year : 2020
 
 這裡的三個資料集都是sensor-based的資料，和2D畫面資料比起來，不同的動作容易產生更大的inter-class variance
 
-摘要中提到的OOD(out-of-distribution)的task，在文獻中可以多加關注
+摘要中提到的OOD(out-of-distribution)的task，在文獻中可以多加關注
